@@ -18,3 +18,6 @@ class Settings(BaseSettings):
         case_sensitive = True
 
 settings = Settings()
+print("Settings loaded:")
+print(f"API_V1_STR: {settings.API_V1_STR}")
+print(f"PROJECT_NAME: {settings.PROJECT_NAME}")
